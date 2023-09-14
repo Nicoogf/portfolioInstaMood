@@ -3,9 +3,10 @@ import { BsPersonAdd } from "react-icons/bs"
 
 export default function Profile() {
   return (
-    <div className='max-h-screen w-full md:7/12 lg:w-7/12 xl:6/12 text-white'>
+    <div className='max-h-screen w-full md:7/12 lg:w-7/12 xl:6/12 text-white overflow-hidden'>
 
       {/* Perfil */}
+     <div className='max-h-screen w-full'>
 
       <div className='text-white flex flex-row items-center py-8'>
 
@@ -65,16 +66,47 @@ export default function Profile() {
           <h6 className='text-gray-300 font-normal'>Certificados Oficiales</h6>
         </div>
 
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center border-b-4 '>
            <h5 className='font-medium'>2</h5>
           <h6 className='text-gray-300 font-normal'>Años de experciencia </h6>
           </div>
-        </div>
+      </div>
 
 
 
-    </div>
+     </div>
 
+     {/* Grid */}
+     <div className='grid grid-cols-3 gap-2 mt-5 overflow-y-auto h-[1200px] xl:w-[90%] mx-auto'>
+
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+          <img src='/gr1.jpg' alt="a"/>
+
+
+      </div>
+    </div> 
 
 
 
