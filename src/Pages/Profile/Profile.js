@@ -8,7 +8,7 @@ export default function Profile() {
       {/* Perfil */}
      <div className='max-h-screen w-full'>
 
-      <div className='text-white flex flex-row items-center py-8'>
+      <div className='text-white flex flex-row items-center py-8 border-b-2 border-gray-800'>
 
         {/* Imagen */}
         <div className='w-[40%] mx-auto'>
@@ -56,21 +56,21 @@ export default function Profile() {
    
          {/* */}
      <div className='flex flex-row justify-around lg:hidden'>
-        <div className='flex flex-col items-center'>
+     <div className='flex flex-col items-center pt-2'>
             <h5 className='font-medium'>213</h5>
             <h6 className='text-gray-300 font-normal'>Proyectos</h6>
          </div>
 
-         <div className='flex flex-col items-center'>
+         <div className='flex flex-col items-center pt-2'>
           <h5 className='font-medium'>2</h5>
           <h6 className='text-gray-300 font-normal'>Certificados Oficiales</h6>
         </div>
 
-        <div className='flex flex-col items-center border-b-4 '>
+        <div className='flex flex-col items-center pt-2'>
            <h5 className='font-medium'>2</h5>
           <h6 className='text-gray-300 font-normal'>Años de experciencia </h6>
           </div>
-      </div>
+     </div>
 
 
 

@@ -2,7 +2,7 @@
 
 const LateralDerecho = () => {
   return (
-    <div className="max-h-screen hidden bg-black lg:flex flex-col justify-around items-center lg:w-4/12 xl:w-5/12  max-w-sm">
+    <div className="max-h-screen hidden bg-black lg:flex flex-col justify-around items-center lg:w-4/12 xl:w-5/12  max-w-sm border-l-2 border-gray-800">
 
       {/* Perfil */}
 
