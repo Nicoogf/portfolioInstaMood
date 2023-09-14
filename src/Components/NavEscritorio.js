@@ -23,15 +23,11 @@ import{
     RxHamburgerMenu
   } from "react-icons/rx" ; 
   
-  import {
-    TbWorldSearch
-  } from "react-icons/tb";
-  
+ 
   
   export const navDataPC = [
     { name: 'Inicio', path: '/', icon: <GoHome className='fill-white'/> },
     { name: 'Búsqueda', path: '/search', icon: <AiOutlineSearch className='text-white'/> },
-    { name: 'Explorar', path: '/explorar', icon: <TbWorldSearch /> },
     { name: 'Mensajes', path: '/md', icon: <PiMessengerLogo /> },
     { name: 'Notificaciones', path: '/notification', icon: <AiOutlineHeart/> },
     { name: 'Crear', path: '/add', icon: <CgAddR /> },

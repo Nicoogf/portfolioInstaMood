@@ -6,7 +6,7 @@ import Inicio from './Pages/Inicio/Inicio';
 
 import NavEscritorio from './Components/NavEscritorio';
 import Search from './Pages/Search/Search';
-import Explorer from './Pages/Explorer/Explorer';
+
 import Message from './Pages/Message/Message';
 import Notificaciones from './Pages/Notificaciones/Notificaciones';
 import Crear from './Pages/Crear/Crear';
@@ -27,12 +27,10 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Inicio />} />
-        <Route path="/search" element={<Search />} />
-        <Route path="/explorar" element={<Explorer />} />
+        <Route path="/search" element={<Search />} />        
         <Route path="/notification" element={<Notificaciones />} />
         <Route path="/add" element={<Crear />} />
-        <Route path="/profile" element={<Profile />} />
-        
+        <Route path="/profile" element={<Profile />} />        
         <Route path="/md" element={<Message />} />
         <Route path="/more" element={<Mas />} />
 
