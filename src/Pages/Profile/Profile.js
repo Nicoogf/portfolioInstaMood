@@ -43,7 +43,8 @@ export default function Profile() {
             {/* Ultima */}
             <div className='w-[80%]'>
               <h6 className='mb-2'> Busco unirme a un equipo de desarrollo web como Fullstack, donde mis habilidades técnicas <span className='hidden xxl:flex'>  y mi pasión por la creación de experiencias digitales </span>  puedan contribuir al éxito del proyecto</h6>
-              <a className='font-medium text-gray-400 text-sm'> Ir a <span className='text-white cursor-pointer'> Linkeding </span>   </a>
+              <a className='font-medium text-gray-400 text-sm' href='https://www.linkedin.com/in/nicolas-falabella-02ab47251/' target="_blank" rel="noopener noreferrer"> 
+              Ir a <span className='text-white cursor-pointer'> Linkeding </span>   </a>
             </div>
 
         </div>

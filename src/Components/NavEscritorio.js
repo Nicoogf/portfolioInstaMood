@@ -54,6 +54,15 @@ import{
         <img src={"/portfolio.png"} width={120} height={120} alt="" className="ml-4 lg:hidden xl:flex mt-6 mb-6"/>
         <img src={"/png.png"} width={40} height={40} alt="" className="hidden lg:flex xl:hidden ml-3 mt-6 mb-6"/>
         {navDataPC.map(( link , index )=>{
+
+          if (link.name === 'Mensajes'){
+            return (              
+              <a key={ index } href={link.path} className=" w-[85%] lg:w-[70%] xl:w-[85%] flex flex-row items-center gap-x-2 py-4 pr-2 rounded-md hover:bg-gris "> 
+                <span className='text-3xl pl-4 relative' > {link.icon} <span className="bg-red-500 text-white px-2 rounded-full text-sm font-normal absolute -top-2 -right-2"> 1 </span> </span>  
+                <span className='text-white lg:hidden xl:flex text-lg font-sm'> {link.name}</span> 
+              </a>
+            )
+          }
             return(
 
               <a key={ index } href={link.path} className=" w-[85%] lg:w-[70%] xl:w-[85%] flex flex-row items-center gap-x-2 py-4 pr-2 rounded-md hover:bg-gris"> 

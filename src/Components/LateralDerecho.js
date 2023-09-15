@@ -13,13 +13,17 @@ const LateralDerecho = () => {
         </div>
 
         <div>
-         <h6 className="-p-1 -my-1 text-sm font-semibold text-white"> Desarrollador </h6> 
+
+         <a href="/profile" className="-p-1 -my-1 text-sm font-semibold text-white"> Desarrollador </a> 
+         
          <h6 className="-p-1 -my-1 text-sm text-gray-400"> Front-end</h6>
         </div>
 
         <div>
-          <a  href={"https://www.instagram.com/javascript.js/?hl=es"}    
-                 className='ml-8 text-sm font-semibold text-verificado hover:text-white transition-all duration-300'>
+          <a  href={"https://www.instagram.com/nfalabella_/"}
+              target="_blank"
+              rel="noopener noreferrer"    
+              className='ml-8 text-sm font-semibold text-verificado hover:text-white transition-all duration-300'>
 
                   Seguir
                    
@@ -48,11 +52,11 @@ const LateralDerecho = () => {
 
           
           <div>
-          <a  href={"https://lenguajehtml.com/"}    
-                 className={'text-sm ml-4 text-verificado hover:text-white transition-all duration-300'}>
-
+          <a  href={"https://lenguajehtml.com/"} 
+              target="_blank"
+              rel="noopener noreferrer"       
+              className={'text-sm ml-4 text-verificado hover:text-white transition-all duration-300'}>
                   Seguir
-                   
           </a>
           </div>
 
@@ -72,7 +76,9 @@ const LateralDerecho = () => {
 
           
           <div>
-          <a  href={"https://www.instagram.com/javascript.js/?hl=es"}    
+          <a  href={"https://www.instagram.com/javascript.js/?hl=es"}
+               target="_blank"
+               rel="noopener noreferrer"      
                  className={'text-sm ml-4 text-verificado hover:text-white transition-all duration-300'}>
 
                   Seguir
@@ -96,7 +102,9 @@ const LateralDerecho = () => {
 
           
           <div>
-          <a  href={"https://www.instagram.com/javascript.js/?hl=es"}    
+          <a  href={"https://react.dev/"}
+              target="_blank"
+              rel="noopener noreferrer"           
                  className={'text-sm ml-4 text-verificado hover:text-white transition-all duration-300'}>
 
                   Seguir
@@ -120,7 +128,9 @@ const LateralDerecho = () => {
 
           
           <div>
-          <a  href={"https://www.instagram.com/javascript.js/?hl=es"}    
+          <a  href={"https://nodejs.org/es"}
+              target="_blank"
+              rel="noopener noreferrer"    
                  className={'text-sm ml-4 text-verificado hover:text-white transition-all duration-300'}>
 
                   Seguir
@@ -144,8 +154,10 @@ const LateralDerecho = () => {
 
             
             <div>
-            <a  href={"https://www.instagram.com/javascript.js/?hl=es"}    
-                  className={'text-sm ml-4 text-verificado hover:text-white transition-all duration-300'}>
+            <a  href={"https://tailwindcss.com/"}
+                target="_blank"
+                rel="noopener noreferrer"     
+                className={'text-sm ml-4 text-verificado hover:text-white transition-all duration-300'}>
 
                     Seguir
                     
@@ -168,7 +180,9 @@ const LateralDerecho = () => {
 
           
           <div>
-          <a  href={"https://www.instagram.com/javascript.js/?hl=es"}    
+          <a  href={"https://nextjs.org/"}
+              target="_blank"
+              rel="noopener noreferrer"     
                 className={'text-sm ml-4 text-verificado hover:text-white transition-all duration-300'}>
 
                   Seguir
@@ -188,29 +202,39 @@ const LateralDerecho = () => {
       {/* Links */}
 
       <div className="mb-8">
-      <a  href={"httpas://lenguajehtml.com/"} className={'text-sm ml-4 text-gray-500 hover:underline '}>
+      <a  href={"https://github.com/Nicoogf/portfolioInstaMood"} 
+          target="_blank"
+          rel="noopener noreferrer"     className={'text-sm ml-4 text-gray-500 hover:underline '}>
            Repositorio -         
       </a>
 
-      <a  href={"https://lenguajehtml.com/"} className={'text-sm ml-4 text-gray-500 hover:underline '}>
+      <a  href={"https://github.com/Nicoogf"} 
+          target="_blank"
+          rel="noopener noreferrer"
+          className={'text-sm ml-4 text-gray-500 hover:underline '}>
            Perfil Git -                 
       </a>
 
-      <a  href={"https://lenguajehtml.com/"} className={'text-sm ml-4 text-gray-500 hover:underline '}>
+      <a  href="mailto:nicolasgfalabella@gmail.com" className={'text-sm ml-4 text-gray-500 hover:underline '}>
            Email -                 
       </a>
 
-      <a  href={"https://lenguajehtml.com/"} className={'text-sm ml-4 text-gray-500 hover:underline '}>
+      <a  href={"https://www.instagram.com/nfalabella_/"} 
+        target="_blank"
+        rel="noopener noreferrer"
+        className={'text-sm ml-4 text-gray-500 hover:underline '}>
            Instagram                 
       </a>
 
       <br />
 
-      <a  href={"https://lenguajehtml.com/"} className={'text-sm ml-4 text-gray-500 hover:underline '}>
+      <a  href={"https://api.whatsapp.com/send?phone=5492324584106"} className={'text-sm ml-4 text-gray-500 hover:underline '}>
            WhatsApp                
       </a>
 
-      <a  href={"https://lenguajehtml.com/"} className={'text-sm ml-4 text-gray-500 hover:underline '}>
+      <a  href={"https://www.linkedin.com/in/nicolas-falabella-02ab47251/"} 
+          target="_blank"
+          rel="noopener noreferrer" className={'text-sm ml-4 text-gray-500 hover:underline '}>
            Linkedin                
       </a>
 
