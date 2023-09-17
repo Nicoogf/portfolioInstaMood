@@ -6,6 +6,7 @@ import { TbLocation } from "react-icons/tb" ;
 import { BsSave } from "react-icons/bs"
 import { BsFillPatchCheckFill } from "react-icons/bs" ;
 import HistoriasContainer from "../../Components/HistoriasContainer"
+import HistoriaAbierta from '../../Components/HistoriaAbierta';
 
 
 export default function Inicio() {
@@ -13,6 +14,8 @@ export default function Inicio() {
     <div className='max-h-screen w-full md:7/12 lg:w-7/12 xl:6/12 bg-black h-[100vh] overflow-hidden'>
 
       <HistoriasContainer />
+
+      <HistoriaAbierta />
 
       <div className="flex flex-col gap-y-8 overflow-y-auto h-[90vh] pb-40 xl:w-7/12 mx-auto">
 
