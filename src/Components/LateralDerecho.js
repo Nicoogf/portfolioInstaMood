@@ -6,30 +6,29 @@ const LateralDerecho = () => {
 
       {/* Perfil */}
 
-      <div className=" max-h-screen w-[100%] flex flex-row items-center justify-center gap-x-2 mt-6">
+      <div className="flex flex-row w-[90%] items-center justify-between gap-x-4 mt-10">
 
-        <div>
-        <img src={"/perfil.jpg"} width={50} height={50} alt="50" className="rounded-full mr-1" />
-        </div>
+          <div className="flex flex-row items-center gap-x-4">
+          <img src={"/perfil.jpg"}height={50} width={50} alt='js' className="rounded-full" />
+            
+            <div>
+            <h5 className="text-md -p-1 -my-1 text-white">Desarrollador </h5>
+            <h6 className="text-xs -p-1 -my-1 text-gray-400">Frontend</h6>
+            </div>
+            
+          </div>
 
-        <div>
-
-         <a href="/profile" className="-p-1 -my-1 text-sm font-semibold text-white"> Desarrollador </a> 
-         
-         <h6 className="-p-1 -my-1 text-sm text-gray-400"> Front-end</h6>
-        </div>
-
-        <div>
-          <a  href={"https://www.instagram.com/nfalabella_/"}
+          <div>
+          <a  href={"https://lenguajehtml.com/"} 
               target="_blank"
-              rel="noopener noreferrer"    
-              className='ml-8 text-sm font-semibold text-verificado hover:text-white transition-all duration-300'>
-
+              rel="noopener noreferrer"       
+              className={'text-sm ml-4 text-verificado hover:text-white transition-all duration-300 mr-14'}>
                   Seguir
-                   
           </a>
-        </div>
+          </div>
+
       </div>
+
 
 
       {/*Sugerencia */}

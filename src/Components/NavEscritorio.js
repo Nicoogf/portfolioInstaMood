@@ -39,6 +39,8 @@ import{
 
   
   const NavEscritorio = () => {
+
+    const estado = false ;
        
     return (     
   

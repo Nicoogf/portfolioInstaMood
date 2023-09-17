@@ -14,7 +14,7 @@ export default function Inicio() {
 
       <HistoriasContainer />
 
-       <div className="flex flex-col gap-y-8 overflow-y-auto h-[90vh] pb-40 xl:w-7/12 mx-auto">
+      <div className="flex flex-col gap-y-8 overflow-y-auto h-[90vh] pb-40 xl:w-7/12 mx-auto">
 
         <div className="w-11/12 mx-auto mt-4 max-w-lg 
         border-b-2 border-gray-800">
